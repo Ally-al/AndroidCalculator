@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".presentation.view.MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:layout_weight="3"
+        android:fillViewport="true">
+
+        <EditText
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:breakStrategy="simple"
+            android:gravity="end|center_vertical"
+            android:textSize="42sp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/digits"
+            android:background="@null"
+            android:text=""
+            android:scrollbars="vertical"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:overScrollMode="never" />
+    </ScrollView>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="15dp"
+        android:background="@color/buttonBackground"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:useDefaultMargins="true"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:layout_margin="10dp" >
+
+        <Button
+            android:id="@+id/bClear"
+            android:text="C"
+            style="@style/clearButtons" />
+
+        <Button
+            android:id="@+id/bLParenthesis"
+            android:text="("
+            style="@style/operationsButtons"
+            android:includeFontPadding="false" />
+
+        <Button
+            android:id="@+id/bRParenthesis"
+            android:text=")"
+            style="@style/operationsButtons"
+            android:includeFontPadding="false" />
+
+        <Button
+            android:id="@+id/bDivide"
+            android:text="/"
+            style="@style/operationsButtons" />
+
+        <Button
+            android:id="@+id/b7"
+            android:text="7"
+            style="@style/digitsButtons" />
+
+        <Button
+            android:id="@+id/b8"
+            style="@style/digitsButtons"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/b9"
+            android:text="9"
+            style="@style/digitsButtons" />
+
+        <Button
+            android:id="@+id/bMultiply"
+            android:text="×"
+            style="@style/operationsButtons" />
+
+        <Button
+            android:id="@+id/b4"
+            android:text="4"
+            style="@style/digitsButtons" />
+
+        <Button
+            android:id="@+id/b5"
+            android:text="5"
+            style="@style/digitsButtons" />
+
+        <Button
+            android:id="@+id/b6"
+            android:text="6"
+            style="@style/digitsButtons" />
+
+        <Button
+            android:id="@+id/bSubtract"
+            android:text="-"
+            style="@style/operationsButtons" />
+
+        <Button
+            android:id="@+id/b1"
+            android:text="1"
+            style="@style/digitsButtons" />
+
+        <Button
+            android:id="@+id/b2"
+            android:text="2"
+            style="@style/digitsButtons" />
+
+        <Button
+            android:id="@+id/b3"
+            android:text="3"
+            style="@style/digitsButtons" />
+
+        <Button
+            android:id="@+id/bAdd"
+            android:text="+"
+            style="@style/operationsButtons" />
+
+        <Button
+            android:id="@+id/b0"
+            android:text="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            style="@style/digitsButtons" />
+
+        <Button
+            android:id="@+id/bPoint"
+            android:text="."
+            style="@style/digitsButtons" />
+
+        <Button
+            android:id="@+id/bEqual"
+            android:text="="
+            style="@style/operationsButtons"
+            android:textColor="@color/buttonBackground"
+            android:backgroundTint="@color/operations"/>
+
+    </GridLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="clearButtons">
+
+        <item name="android:textColor">@color/clear</item>
+
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">14sp</item>
+        <item name="android:autoSizeMaxTextSize">38sp</item>
+
+        <item name="android:backgroundTint">@color/buttonBackground</item>
+    </style>
+
+
+    <style name="operationsButtons">
+        <item name="android:textColor">@color/operations</item>
+
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">14sp</item>
+        <item name="android:autoSizeMaxTextSize">38sp</item>
+
+        <item name="android:backgroundTint">@color/buttonBackground</item>
+    </style>
+
+
+    <style name="digitsButtons">
+        <item name="android:textColor">@color/digits</item>
+
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">14sp</item>
+        <item name="android:autoSizeMaxTextSize">38sp</item>
+
+        <item name="android:backgroundTint">@color/buttonBackground</item>
+    </style>
+
+</resources>

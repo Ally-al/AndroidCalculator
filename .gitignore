@@ -1,0 +1,38 @@
+# Android Studio
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+*.keystore
+
+# Signing files
+*.jks
+
+# Native files
+.cxx/
+.externalNativeBuild/
+
+# IntelliJ IDEA workspace
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other
+/captures/
+/output.json
+
+# Logs
+*.log
