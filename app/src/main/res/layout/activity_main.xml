@@ -45,7 +45,7 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5"
+        android:layout_weight="6"
         android:useDefaultMargins="true"
         android:columnCount="4"
         android:rowCount="5"
